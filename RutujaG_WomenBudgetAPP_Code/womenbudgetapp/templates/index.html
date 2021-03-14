@@ -1,0 +1,399 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>WomenBudgetAPP</title>
+  </head>
+
+
+
+  <!-- Navbar links -->
+
+
+<style type="text/css">
+        .back {
+         background-image: url(/static/saving.jpg);
+         min-height: 300px;
+         background-position: center;
+         background-size: cover;
+          }
+		body {
+			margin: 0;
+			padding: 0;
+			background-color:#e9ecef;
+		}
+
+		table,
+		td,
+		tr {
+			vertical-align: top;
+			border-collapse: collapse;
+		}
+
+		* {
+			line-height: inherit;
+		}
+
+		a[x-apple-data-detectors=true] {
+			color: inherit !important;
+			text-decoration: none !important;
+		}
+	</style>
+<style id="media-query" type="text/css">
+		@media (max-width: 920px) {
+
+			.block-grid,
+			.col {
+				min-width: 320px !important;
+				max-width: 100% !important;
+				display: block !important;
+			}
+
+			.block-grid {
+				width: 100% !important;
+			}
+
+			.col {
+				width: 100% !important;
+			}
+
+			.col_cont {
+				margin: 0 auto;
+			}
+
+			img.fullwidth,
+			img.fullwidthOnMobile {
+				max-width: 100% !important;
+			}
+
+			.no-stack .col {
+				min-width: 0 !important;
+				display: table-cell !important;
+			}
+
+			.no-stack.two-up .col {
+				width: 50% !important;
+			}
+
+			.no-stack .col.num2 {
+				width: 16.6% !important;
+			}
+
+			.no-stack .col.num3 {
+				width: 25% !important;
+			}
+
+			.no-stack .col.num4 {
+				width: 33% !important;
+			}
+
+			.no-stack .col.num5 {
+				width: 41.6% !important;
+			}
+
+			.no-stack .col.num6 {
+				width: 50% !important;
+			}
+
+			.no-stack .col.num7 {
+				width: 58.3% !important;
+			}
+
+			.no-stack .col.num8 {
+				width: 66.6% !important;
+			}
+
+			.no-stack .col.num9 {
+				width: 75% !important;
+			}
+
+			.no-stack .col.num10 {
+				width: 83.3% !important;
+			}
+
+			.video-block {
+				max-width: none !important;
+			}
+
+			.mobile_hide {
+				min-height: 0px;
+				max-height: 0px;
+				max-width: 0px;
+				display: none;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide {
+				display: block !important;
+				max-height: none !important;
+			}
+		}
+	</style>
+<style id="icon-media-query" type="text/css">
+		@media (max-width: 920px) {
+			.icons-inner {
+				text-align: center;
+			}
+
+			.icons-inner td {
+				margin: 0 auto;
+			}
+		}
+	</style>
+</head>
+
+         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="{%url 'index'%}">WomenBudgetApp</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<body class="clean-body" style="margin: 0; padding: 0; -webkit-text-size-adjust: 100%; background-color: #ffffff;">
+<!--[if IE]><div class="ie-browser"><![endif]-->
+<table bgcolor="#ffffff" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="table-layout: fixed; vertical-align: top; min-width: 320px; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; width: 100%;" valign="top" width="100%">
+<tbody>
+<tr style="vertical-align: top;" valign="top">
+<td style="word-break: break-word; vertical-align: top;" valign="top">
+<!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color:#ffffff"><![endif]-->
+<div style="background-color:#ffffff;">
+<div class="block-grid" style="min-width: 320px; max-width: 900px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #ffffff;">
+<div style="border-collapse: collapse;display: table;width: 100%;background-color:#ffffff;">
+<!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff;"><tr><td align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:900px"><tr class="layout-full-width" style="background-color:#ffffff"><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="900" style="background-color:#ffffff;width:900px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:15px; padding-bottom:15px;"><![endif]-->
+<div class="col num12" style="min-width: 320px; max-width: 900px; display: table-cell; vertical-align: top; width: 900px;">
+<div class="col_cont" style="width:100% !important;">
+<!--[if (!mso)&(!IE)]><!-->
+<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:15px; padding-bottom:15px; padding-right: 0px; padding-left: 0px;">
+<!--<![endif]-->
+<div align="center" class="img-container center fixedwidth" style="padding-right: 0px;padding-left: 0px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 0px;padding-left: 0px;" align="center"><![endif]-->
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 25px; padding-bottom: 25px; font-family: Tahoma, Verdana, sans-serif"><![endif]-->
+<div style="color:#00a55d;font-family:Lato, Tahoma, Verdana, Segoe, sans-serif;line-height:1.2;padding-top:25px;padding-right:10px;padding-bottom:25px;padding-left:10px;">
+<div class="txtTinyMce-wrapper" style="font-size: 14px; line-height: 1.2; color: #00a55d; font-family: Lato, Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 17px;">
+<p style="font-size: 30px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 36px; margin: 0;"><span style="font-size: 30px;"><strong>WE BELIEVE WOMEN ARE THE BEST MONEY MANAGERS!</strong></span></p>
+</div>
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+<!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+</div>
+</div>
+<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+<!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+</div>
+</div>
+</div>
+<div style="background-color:transparent;">
+<div class="block-grid mixed-two-up" style="min-width: 320px; max-width: 900px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #ffffff;">
+<div style="border-collapse: collapse;display: table;width: 100%;background-color:#ffffff;">
+<!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:900px"><tr class="layout-full-width" style="background-color:#ffffff"><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="375" style="background-color:#ffffff;width:375px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"><![endif]-->
+<div class="col num5" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 375px; width: 375px;">
+<div class="col_cont" style="width:100% !important;">
+<!--[if (!mso)&(!IE)]><!-->
+<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+<!--<![endif]-->
+<div align="center" class="img-container center autowidth" style="padding-right: 0px;padding-left: 0px;">
+    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 0px;padding-left: 0px;" align="center"><![endif]--><div class="back"></div>
+</div>
+<!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+</div>
+</div>
+<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+<!--[if (mso)|(IE)]></td><td align="center" width="525" style="background-color:#ffffff;width:525px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"><![endif]-->
+<div class="col num7" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 525px; width: 525px;">
+<div class="col_cont" style="width:100% !important;">
+<!--[if (!mso)&(!IE)]><!-->
+<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+<!--<![endif]-->
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 5px; padding-left: 5px; padding-top: 0px; padding-bottom: 5px; font-family: Tahoma, Verdana, sans-serif"><![endif]-->
+<div style="color:#00a55d;font-family:Lato, Tahoma, Verdana, Segoe, sans-serif;letter-spacing:0px;line-height:1.2;padding-top:0px;padding-right:5px;padding-bottom:5px;padding-left:5px;">
+<div class="txtTinyMce-wrapper" style="line-height: 1.2; font-size: 12px; color: #00a55d; font-family: Lato, Tahoma, Verdana, Segoe, sans-serif; letter-spacing: 0px; mso-line-height-alt: 14px;">
+<p style="font-size: 24px; line-height: 1.2; word-break: break-word; text-align: justify; mso-line-height-alt: 29px; letter-spacing: normal; margin: 0;"><span style="font-size: 24px;">Women save in small amounts for future. How would they know if saving that much amount will help meet their goals? WBA is a money manager for women, helping them to fine tune their finances by creating goals, setting budgets and contributing in small amount towards it. This application will also help in predicting the wealth which would get accumulated</span><span style="font-size: 24px;"> </span><span style="font-size: 24px;">based</span><span style="font-size: 24px;"> on their goal term. </span></p>
+</div>
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+<!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+</div>
+</div>
+<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+<!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+</div>
+</div>
+</div>
+<div style="background-color:transparent;">
+<div class="block-grid mixed-two-up" style="min-width: 320px; max-width: 900px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #ffffff;">
+<div style="border-collapse: collapse;display: table;width: 100%;background-color:#ffffff;">
+<!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:900px"><tr class="layout-full-width" style="background-color:#ffffff"><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="375" style="background-color:#ffffff;width:375px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"><![endif]-->
+<div class="col num5" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 375px; width: 375px;">
+<div class="col_cont" style="width:100% !important;">
+<!--[if (!mso)&(!IE)]><!-->
+<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+<!--<![endif]-->
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, Verdana, sans-serif"><![endif]-->
+<div style="color:#00a55d;font-family:Lato, Tahoma, Verdana, Segoe, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
+<div class="txtTinyMce-wrapper" style="line-height: 1.2; font-size: 12px; color: #00a55d; font-family: Lato, Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 14px;">
+<p style="font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;"><strong><span style="font-size: 17px; mso-ansi-font-size: 18px;">Let us help you! To use our services:</span></strong></p>
+</div>
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+<div align="center" class="button-container" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:31.5pt;width:100.5pt;v-text-anchor:middle;" arcsize="10%" stroke="false" fillcolor="#00a55d"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Tahoma, Verdana, sans-serif; font-size:16px"><![endif]-->
+    <a href="{%url 'register'%}"><div style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#00a55d;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;width:auto; width:auto;;border-top:1px solid #00a55d;border-right:1px solid #00a55d;border-bottom:1px solid #00a55d;border-left:1px solid #00a55d;padding-top:5px;padding-bottom:5px;font-family:Lato, Tahoma, Verdana, Segoe, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;"><span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:undefined;"><span style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;">Sign Up</span></span></div></a>
+<!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->
+</div>
+<!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+</div>
+</div>
+<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+<!--[if (mso)|(IE)]></td><td align="center" width="525" style="background-color:#ffffff;width:525px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"><![endif]-->
+<div class="col num7" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 525px; width: 525px;">
+<div class="col_cont" style="width:100% !important;">
+<!--[if (!mso)&(!IE)]><!-->
+<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+<!--<![endif]-->
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, Verdana, sans-serif"><![endif]-->
+<div style="color:#00a55d;font-family:Lato, Tahoma, Verdana, Segoe, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
+<div class="txtTinyMce-wrapper" style="line-height: 1.2; font-size: 12px; color: #00a55d; font-family: Lato, Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 14px;">
+    <p style="font-size: 17px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 20px; mso-ansi-font-size: 18px; margin: 0;"><span style="font-size: 17px; mso-ansi-font-size: 18px;"><strong>If you have registered already, please login.</strong></span></p>
+</div>
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+<div align="center" class="button-container" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:31.5pt;width:88.5pt;v-text-anchor:middle;" arcsize="10%" stroke="false" fillcolor="#00a55d"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Tahoma, Verdana, sans-serif; font-size:16px"><![endif]-->
+    <a href="{%url 'login'%}"><div style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#00a55d;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;width:auto; width:auto;;border-top:1px solid #00a55d;border-right:1px solid #00a55d;border-bottom:1px solid #00a55d;border-left:1px solid #00a55d;padding-top:5px;padding-bottom:5px;font-family:Lato, Tahoma, Verdana, Segoe, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;"><span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:undefined;"><span style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;">Login</span></span></div></a>
+<!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->
+</div>
+<!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+</div>
+</div>
+<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+<!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+</div>
+</div>
+</div>
+<div style="background-color:transparent;">
+<div class="block-grid" style="min-width: 320px; max-width: 900px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #ffffff;">
+<div style="border-collapse: collapse;display: table;width: 100%;background-color:#ffffff;">
+<!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:900px"><tr class="layout-full-width" style="background-color:#ffffff"><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="900" style="background-color:#ffffff;width:900px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"><![endif]-->
+<div class="col num12" style="min-width: 320px; max-width: 900px; display: table-cell; vertical-align: top; width: 900px;">
+<div class="col_cont" style="width:100% !important;">
+<!--[if (!mso)&(!IE)]><!-->
+<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+<!--<![endif]-->
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, Verdana, sans-serif"><![endif]-->
+<div style="color:#00a55d;font-family:Lato, Tahoma, Verdana, Segoe, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
+<div class="txtTinyMce-wrapper" style="line-height: 1.2; font-size: 12px; color: #00a55d; font-family: Lato, Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 14px;">
+<p style="font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;">Designed for Standard Chartered Bank Diversity Hackathon 2021.</p>
+<p style="font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;">Team 07</p>
+<p style="font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;">(Janani, Geethika, Shreya, Rutuja and Ayushi)</p>
+</div>
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+<!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+</div>
+</div>
+<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+<!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+</div>
+</div>
+</div>
+<div style="background-color:transparent;">
+<div class="block-grid" style="min-width: 320px; max-width: 900px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #ffffff;">
+<div style="border-collapse: collapse;display: table;width: 100%;background-color:#ffffff;">
+<!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:900px"><tr class="layout-full-width" style="background-color:#ffffff"><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="900" style="background-color:#ffffff;width:900px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"><![endif]-->
+<div class="col num12" style="min-width: 320px; max-width: 900px; display: table-cell; vertical-align: top; width: 900px;">
+<div class="col_cont" style="width:100% !important;">
+<!--[if (!mso)&(!IE)]><!-->
+<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+<!--<![endif]-->
+<table cellpadding="0" cellspacing="0" role="presentation" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top" width="100%">
+<tr style="vertical-align: top;" valign="top">
+<td align="center" style="word-break: break-word; vertical-align: top; padding-top: 5px; padding-right: 0px; padding-bottom: 5px; padding-left: 0px; text-align: center;" valign="top">
+<!--[if vml]><table align="left" cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block;padding-left:0px;padding-right:0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;"><![endif]-->
+<!--[if !vml]><!-->
+<table cellpadding="0" cellspacing="0" class="icons-inner" role="presentation" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block; margin-right: -4px; padding-left: 0px; padding-right: 0px;" valign="top">
+<!--<![endif]-->
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+</div>
+</div>
+<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+<!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+</div>
+</div>
+</div>
+<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
